@@ -56,7 +56,7 @@ def setup_logging():
         logger.addHandler(file_handler)
         logger.addHandler(console_handler)
 
-    logger.setLevel(logging.DEBUG)  # Set overall logger level
+    logger.setLevel(logging.DEBUG)  # Set overall logger level.
     logger.propagate = False  # Avoid duplicate logs from root logger
 
 
